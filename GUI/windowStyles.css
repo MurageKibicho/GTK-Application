@@ -1,0 +1,20 @@
+.window {
+  border: 1px solid #000000;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: inset 1px -1px 0px 0px rgba(255, 255, 255, 0.25), inset -1px -1px 0px 0px rgba(255, 255, 255, 0.25);
+  background-image: linear-gradient(to right, rgba(109, 179, 242, 0.5) 0%, rgba(84, 163, 238, 0.5) 50%, rgba(54, 144, 240, 0.5) 51%, rgba(30, 105, 222, 0.5) 100%);
+  padding: 5px;
+}
+
+.window:backdrop {
+  border: 1px solid #303030;
+  border-top: none;
+  background-image: linear-gradient(to right, #C1C1C1 0%, #B1B1B1 50%, #A2A2A2 51%, #8B8B8B 100%);
+}
+.window:title {
+    color: #000;
+  border: 1px solid #303030;
+  border-top: none;
+  background-image: linear-gradient(to right, #C1C1C1 0%, #B1B1B1 50%, #A2A2A2 51%, #8B8B8B 100%);
+}

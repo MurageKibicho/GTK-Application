@@ -1,0 +1,22 @@
+.music{ 
+ background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+        color: #fff;
+            margin-top: 10px;
+                        margin-left: 20px;
+                        margin-bottom: 20px;
+                        text-shadow: #fff
+                      }
+
+.music:hover {
+ position: absolute;
+  background: #db4437;
+  width: 350px;
+  height: 250px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px/100px;
+  box-shadow: 7px 10px rgba(0, 0, 0, .2);}
+
+
